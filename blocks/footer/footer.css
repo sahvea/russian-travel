@@ -1,7 +1,6 @@
 .footer {
   width: calc(100% - 48px*2);
   margin: 92px auto 24px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +17,6 @@
   .footer {
     width: calc(100% - 16px*2);
     margin-top: 64px;
-
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
@@ -28,7 +26,6 @@
 @media screen and (max-width: 575px) {
   .footer {
     min-width: 186px;
-    min-height: 310px;
     margin-left: 16px;
   }
 }

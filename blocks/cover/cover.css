@@ -2,11 +2,9 @@
   width: calc(100% - 48px*2);
   min-height: 740px;
   margin: 92px auto 0;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   background: url('../../images/cover-trains.jpg') center center/cover no-repeat;
   position: relative;
   z-index: 1;
@@ -20,7 +18,6 @@
   bottom: 0;
   left: 0;
   z-index: -1;
-
   background: #2A2C2F;
   opacity: 0;
   transition: opacity .4s ease;

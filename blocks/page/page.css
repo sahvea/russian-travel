@@ -3,14 +3,12 @@
   font-style: normal;
   font-weight: 400;
   color: #fff;
-
   min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   background-color: #2a2c2f;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
