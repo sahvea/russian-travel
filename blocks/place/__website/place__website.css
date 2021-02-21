@@ -1,0 +1,12 @@
+.place__website {
+  min-height: 46px;
+  margin: 0;
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    width: calc(100% - 16px*2);
+    margin: 0 auto;
+  }
+}
