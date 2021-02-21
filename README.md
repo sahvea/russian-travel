@@ -13,6 +13,6 @@
 
 **GitHub Pages**
 
-* [Ссылка на GitHub Pages](https://sophiemilash.github.io/russian-travel/)
+* [Ссылка на GitHub Pages]()
 
 
