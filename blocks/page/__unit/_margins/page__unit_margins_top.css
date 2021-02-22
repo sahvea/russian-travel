@@ -1,15 +1,15 @@
-.page_margins_top {
+.page__unit_margins_top {
   margin: 92px auto 0;
 }
 
 @media screen and (max-width: 1023px) {
-  .page_margins_top {
+  .page__unit_margins_top {
     margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .page_margins_top {
+  .page__unit_margins_top {
     margin-top: 64px;
   }
 }
