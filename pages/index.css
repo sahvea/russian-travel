@@ -2,14 +2,13 @@
 @import url('../vender/fonts/fonts.css');
 
 @import url('../blocks/page/page.css');
-@import url('../blocks/page/__section/page__section.css');
 @import url('../blocks/page/__header/page__header.css');
 @import url('../blocks/page/__lead/page__lead.css');
 @import url('../blocks/page/__intro/page__intro.css');
+@import url('../blocks/page/__gallery/page__gallery.css');
 @import url('../blocks/page/__places/page__places.css');
 @import url('../blocks/page/__cover/page__cover.css');
 @import url('../blocks/page/__footer/page__footer.css');
-@import url('../blocks/page/__unit/_margins/page__unit_margins_top.css');
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
@@ -34,6 +33,7 @@
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
 
+@import url('../blocks/places/__place/places__place.css');
 @import url('../blocks/place/place.css');
 @import url('../blocks/place/__title/place__title.css');
 @import url('../blocks/place/__website/place__website.css');
@@ -42,7 +42,7 @@
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__text/place__text.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
-@import url('../blocks/place/_margins/place_margins_top.css');
+
 
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__link/cover__link.css');

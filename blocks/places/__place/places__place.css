@@ -1,19 +1,19 @@
-.place_margins_top {
+.places__place {
   margin-top: 80px;
 }
 
-.place_margins_top:first-of-type {
+.places__place:first-of-type {
   margin-top: 0;
 }
 
 @media screen and (max-width: 1023px) {
-  .place_margins_top {
+  .places__place {
     margin-top: 73px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .place_margins_top {
+  .places__place {
     margin-top: 50px;
   }
 }

@@ -1,6 +1,22 @@
 .page__footer {
-  padding-bottom: 24px;
+  width: calc(100% - 48px*2);
+  margin: 92px auto 24px;
 }
+
+@media screen and (max-width: 1023px) {
+  .page__footer {
+    width: calc(100% - 24px*2);
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__footer {
+    width: calc(100% - 16px*2);
+    margin-top: 64px;
+  }
+}
+
 
 @media screen and (max-width: 575px) {
   .page__footer {

@@ -1,9 +1,22 @@
 .page__cover {
   width: calc(100% - 48px*2);
+  margin: 92px auto 0;
 }
 
 @media screen and (max-width: 1279px) {
   .page__cover {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page__cover {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__cover {
+    margin-top: 64px;
   }
 }
