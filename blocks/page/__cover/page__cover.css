@@ -1,0 +1,9 @@
+.page__cover {
+  width: calc(100% - 48px*2);
+}
+
+@media screen and (max-width: 1279px) {
+  .page__cover {
+    width: 100%;
+  }
+}

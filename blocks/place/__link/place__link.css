@@ -1,7 +1,7 @@
 .place__link {
   margin: 0;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 122%;
   color: #fff;
   transition: opacity .3s linear;
 }

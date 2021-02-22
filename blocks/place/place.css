@@ -1,14 +1,8 @@
 .place {
-  width: 100%;
   display: grid;
   grid-template-columns: 460px 1fr;
   gap: 48px 40px;
-  text-align-last: left;
-  margin-top: 80px;
-}
-
-.place:first-of-type {
-  margin-top: 0;
+  text-align: left;
 }
 
 @media screen and (max-width: 1279px) {
@@ -22,7 +16,6 @@
   .place {
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
-    margin-top: 73px;
   }
 }
 
@@ -30,6 +23,5 @@
   .place {
     grid-template-columns: 1fr;
     gap: 32px;
-    margin-top: 50px;
   }
 }
