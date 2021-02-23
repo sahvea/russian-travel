@@ -1,5 +1,5 @@
 .cover {
-  height: 740px;
+  min-height: 740px; /* Поменяла на фиксированную высоту, т.к. хотела задать ссылке высоту в 100%, а она работает только при явно заданной высоте родителя. Так, для центрирования и создания "кликабельных полей" указала ссылке padding в 25% сверху и снизу, но не знаю, насколько это допустимый вариант*/
   background: url('../../images/cover-trains.jpg') center center/cover no-repeat;
   position: relative;
   z-index: 1;
@@ -24,24 +24,24 @@
 
 @media screen and (max-width: 1279px) {
   .cover {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    height: 340px;
+    min-height: 340px;
   }
 }
 
 @media screen and (max-width: 575px) {
   .cover {
-    height: 200px;
+    min-height: 200px;
   }
 }
